@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    tools:context=".ResultActivity"
+    android:layout_height="match_parent"
+    android:background="@drawable/jojopeg"
+    android:theme="@style/MyCheckBox">
+
+    <TextView
+        android:id="@+id/result"
+        android:textColor="#EBC700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Итог"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName1"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost1"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName2"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost2"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName3"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost3"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName4"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost4"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName5"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost5"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName6"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost6"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName7"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost7"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resName8"
+            android:layout_width="211dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <TextView
+            android:textColor="#CCCCCC"
+            android:id="@+id/resCost8"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24dp" />
+
+        <CheckBox
+            android:id="@+id/resBox8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
